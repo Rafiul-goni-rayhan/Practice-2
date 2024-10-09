@@ -1,0 +1,181 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+   
+}
+
+.logo h1 {
+    display: inline;
+    margin-left: 10px;
+}
+
+.navbar nav ul {
+    display: flex;
+    gap: 15px;
+
+
+
+    
+    padding: 10px 15px;
+    margin-right: 5px;
+    background-color: #323232;
+    border-radius: 10px;
+    
+
+}
+.navbar nav ul li a:hover {
+    background-color:#7768e8;
+    border-radius: 10px;
+    padding: 10px 2px;
+
+}
+
+.contact-info {
+    font-size: 0.8em;
+}
+
+.email-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+}
+.email-link:hover {
+    color: #fe0000;
+}
+
+
+
+.hero {
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(135deg,#ff5050, #6701b0 );
+}
+
+.hero button {
+    background-color: white;
+    color: #fd14fd;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #ddd;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.feature-link {
+    width: 23%;
+    text-decoration: none;
+    color: inherit; 
+    transition: color 0.3s ease;
+}
+
+.feature-link:hover .feature h3 {
+    color: #007bff; 
+}
+
+.feature {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+    color: #ff2b2b;
+    margin-bottom: 20px;
+}
+
+.featured-products {
+    text-align: center;
+    padding: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    width: 22%;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 50%;
+    height: auto;
+}
+
+.product button {
+    background-color: rgb(243, 57, 57);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.product button:hover {
+    background-color: darkred;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
